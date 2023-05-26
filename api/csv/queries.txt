@@ -1,0 +1,8 @@
+AÑADIR DONANTES
+
+INSERT INTO Donantes (donante_dni, donante_name, donante_lastname, donante_phone, donante_numero_donante, donante_fecha_nacimiento, donante_email, createdAt, updatedAt) 
+VALUES 
+    ('123456789', 'John', 'Doe', 1234567890, 1, '2000-01-01', 'john.doe@example.com', NOW(), NOW()),
+    ('987654321', 'Jane', 'Smith', 9876543210, 2, '1995-05-10', 'jane.smith@example.com', NOW(), NOW()),
+    ('456789123', 'Bob', 'Johnson', 4567891230, 3, '1988-12-25', 'bob.johnson@example.com', NOW(), NOW());
+
